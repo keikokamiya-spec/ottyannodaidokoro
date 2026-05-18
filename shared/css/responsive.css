@@ -133,7 +133,19 @@
     display: none !important;
   }
 
-  /* Mobile controls: phone icon + hamburger */
+  /* Mobile logo (left side of nav bar) */
+  .mobile-logo {
+    display: flex !important;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .mobile-logo img {
+    height: 36px;
+    width: auto;
+  }
+
+  /* Mobile controls: phone icon + hamburger (right side) */
   .mobile-nav-controls {
     display: flex !important;
     align-items: center;
