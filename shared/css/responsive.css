@@ -51,22 +51,14 @@
 
   header .wrap {
     position: relative;
-    padding: 16px;
-    padding-top: 68px;
+    padding: 0;
+    margin-top: 52px;
   }
 
-  /* Logo */
+  /* ナビバーにロゴがあるのでヘッダー内のロゴは非表示 */
   header .logo {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
+    display: none !important;
   }
-
-  header .logo.non-over {
-    position: static;
-    display: block;
-  }
-
 
   /* H1 title: hide on mobile */
   header h1 {
