@@ -67,15 +67,9 @@
   }
 
 
-  /* H1 title (hidden visually on mobile, keep for SEO) */
+  /* H1 title: hide on mobile */
   header h1 {
-    position: static;
-    width: 100%;
-    font-size: 11px;
-    line-height: 1.6;
-    text-align: center;
-    padding: 8px 16px;
-    box-sizing: border-box;
+    display: none;
   }
 
   /* Tel */
