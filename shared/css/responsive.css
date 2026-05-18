@@ -28,11 +28,6 @@
     box-sizing: border-box;
   }
 
-  /* --- All images responsive --- */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 
   /* ==============================================
    * Header
@@ -59,9 +54,6 @@
     display: block;
   }
 
-  header .logo img {
-    max-width: 200px;
-  }
 
   /* H1 title (hidden visually on mobile, keep for SEO) */
   header h1 {
@@ -81,9 +73,6 @@
     padding: 8px 0;
   }
 
-  header .tel img {
-    max-width: 220px;
-  }
 
   /* Vertical side nav — hide on mobile */
   header .nav-fl {
@@ -97,10 +86,6 @@
     min-height: 200px;
   }
 
-  header #key img {
-    width: 100%;
-    height: auto;
-  }
 
   /* Fixed WEB reservation button */
   header .btn_fixed {
@@ -111,10 +96,6 @@
     z-index: 99;
   }
 
-  header .btn_fixed img {
-    width: 50px;
-    height: auto;
-  }
 
   /* Fixed nav bar */
   header .nav-fixed .wrap {
@@ -130,10 +111,6 @@
     padding-bottom: 8px;
   }
 
-  header .nav-fixed nav img {
-    height: 16px;
-    width: auto;
-  }
 
   /* ==============================================
    * Section common
@@ -176,9 +153,6 @@
     padding: 24px 0 8px;
   }
 
-  footer .logo img {
-    max-width: 200px;
-  }
 
   footer .tel {
     position: static;
@@ -186,9 +160,6 @@
     padding: 8px 0;
   }
 
-  footer .tel img {
-    max-width: 240px;
-  }
 
   footer .vcard {
     margin-left: 0 !important;
@@ -256,11 +227,6 @@
     text-align: center;
   }
 
-  #sec1 .photo img {
-    max-width: 100%;
-    height: auto;
-  }
-
   #sec2 .gllarey {
     display: block;
   }
@@ -270,16 +236,6 @@
     margin-bottom: 16px;
   }
 
-  #sec2 .gllarey .map img {
-    max-width: 160px;
-    height: auto;
-  }
-
-  #sec2 .gllarey .images img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
-  }
 
   #sec2 .txt {
     font-size: 13px;
@@ -299,25 +255,9 @@
     margin-bottom: 8px;
   }
 
-  #sec3 .banner img {
-    max-width: 100%;
-    height: auto;
-  }
-
   /* ==============================================
    * General section images
    * ============================================== */
-
-  section img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Section headings */
-  section h2 img {
-    max-width: 80%;
-    height: auto;
-  }
 
   /* Text paragraphs */
   section p,
@@ -343,13 +283,6 @@
     display: block;
   }
 
-  section .gallery img,
-  section .images img,
-  section .photo-list img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
-  }
 
   /* Menu / list tables */
   section dl,
