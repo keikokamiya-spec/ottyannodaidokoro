@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const header   = document.getElementById('site-header');
+  const header    = document.getElementById('site-header');
   const hamburger = document.getElementById('hamburger');
-  const overlay  = document.getElementById('nav-overlay');
-  const pageTop  = document.getElementById('page-top');
+  const overlay   = document.getElementById('nav-overlay');
+  const pageTop   = document.getElementById('page-top');
 
-  // Header scroll + page-top visibility
+  // Header shadow on scroll + page-top visibility
   window.addEventListener('scroll', () => {
-    const scrolled = window.scrollY > 50;
-    header?.classList.toggle('scrolled', scrolled);
-    pageTop?.classList.toggle('visible', window.scrollY > 300);
+    header?.classList.toggle('scrolled', window.scrollY > 10);
+    pageTop?.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
 
   // Hamburger toggle
