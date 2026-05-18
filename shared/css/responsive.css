@@ -1,0 +1,369 @@
+/* ==============================================
+ * Mobile Responsive Styles
+ * ============================================== */
+
+@media screen and (max-width: 768px) {
+
+  /* --- Reset desktop min-width --- */
+  html:not(.responsive) {
+    min-width: 0 !important;
+  }
+
+  /* --- Base layout --- */
+  body {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    overflow-x: hidden;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+
+  .wrap {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  /* --- All images responsive --- */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ==============================================
+   * Header
+   * ============================================== */
+
+  header {
+    position: relative;
+  }
+
+  header .wrap {
+    position: relative;
+    padding: 16px;
+  }
+
+  /* Logo */
+  header .logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  header .logo.non-over {
+    position: static;
+    display: block;
+  }
+
+  header .logo img {
+    max-width: 200px;
+  }
+
+  /* H1 title (hidden visually on mobile, keep for SEO) */
+  header h1 {
+    position: static;
+    width: 100%;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 8px 16px;
+    box-sizing: border-box;
+  }
+
+  /* Tel */
+  header .tel {
+    position: static;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  header .tel img {
+    max-width: 220px;
+  }
+
+  /* Vertical side nav — hide on mobile */
+  header .nav-fl {
+    display: none;
+  }
+
+  /* Hero key image */
+  header #key {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    min-height: 200px;
+  }
+
+  header #key img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fixed WEB reservation button */
+  header .btn_fixed {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 99;
+  }
+
+  header .btn_fixed img {
+    width: 50px;
+    height: auto;
+  }
+
+  /* Fixed nav bar */
+  header .nav-fixed .wrap {
+    padding: 12px 16px;
+    box-sizing: border-box;
+    overflow-x: auto;
+  }
+
+  header .nav-fixed nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+
+  header .nav-fixed nav img {
+    height: 16px;
+    width: auto;
+  }
+
+  /* ==============================================
+   * Section common
+   * ============================================== */
+
+  section .wrap {
+    position: relative;
+  }
+
+  /* ==============================================
+   * Footer
+   * ============================================== */
+
+  footer {
+    text-align: center;
+    position: relative;
+  }
+
+  footer .wrap {
+    position: relative;
+  }
+
+  footer .nav-inline {
+    flex-wrap: wrap;
+    padding: 24px 16px 0;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  footer .nav-inline a {
+    font-size: 12px;
+    height: auto;
+    line-height: 1.8;
+    width: auto !important;
+  }
+
+  footer .logo {
+    position: static;
+    display: block;
+    padding: 24px 0 8px;
+  }
+
+  footer .logo img {
+    max-width: 200px;
+  }
+
+  footer .tel {
+    position: static;
+    display: block;
+    padding: 8px 0;
+  }
+
+  footer .tel img {
+    max-width: 240px;
+  }
+
+  footer .vcard {
+    margin-left: 0 !important;
+    padding: 16px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  footer .vcard dl {
+    display: block;
+    width: 100%;
+  }
+
+  footer .vcard dl dt {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  footer .vcard dl dd {
+    display: block;
+    width: 100%;
+    padding-left: 8px;
+  }
+
+  footer address {
+    padding: 24px 16px 40px;
+    font-size: 12px;
+  }
+
+  footer #socialbuttons {
+    margin-left: 0;
+  }
+
+  /* Footer WEB予約 button */
+  .dis_b {
+    position: static !important;
+    display: flex !important;
+    justify-content: center;
+    padding: 16px 0;
+  }
+
+  .btn_ebi_te {
+    width: 260px;
+  }
+
+  /* ==============================================
+   * index.html specific
+   * ============================================== */
+
+  /* Bxslider / hero section */
+  #key ul, #key li {
+    min-height: 200px;
+  }
+
+  /* ==============================================
+   * access.html specific
+   * ============================================== */
+
+  #sec1 .info {
+    padding: 0;
+  }
+
+  #sec1 .photo {
+    text-align: center;
+  }
+
+  #sec1 .photo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #sec2 .gllarey {
+    display: block;
+  }
+
+  #sec2 .gllarey .map {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  #sec2 .gllarey .map img {
+    max-width: 160px;
+    height: auto;
+  }
+
+  #sec2 .gllarey .images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  #sec2 .txt {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  #sec3 iframe {
+    height: 300px;
+  }
+
+  #sec3 .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #sec3 .banner li {
+    margin-bottom: 8px;
+  }
+
+  #sec3 .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ==============================================
+   * General section images
+   * ============================================== */
+
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Section headings */
+  section h2 img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /* Text paragraphs */
+  section p,
+  section .txt,
+  section .catch,
+  section .lead {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  /* Flex layouts → column */
+  section .flex,
+  section .flex-wrap,
+  section .col,
+  section .columns {
+    flex-direction: column !important;
+  }
+
+  /* Gallery grids */
+  section .gallery,
+  section .images,
+  section .photo-list {
+    display: block;
+  }
+
+  section .gallery img,
+  section .images img,
+  section .photo-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  /* Menu / list tables */
+  section dl,
+  section table {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Remove fixed pixel widths from common elements */
+  section div,
+  section ul,
+  section ol {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+}
