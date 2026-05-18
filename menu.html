@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お品書き | おっちゃんの台所</title>
+  <meta name="description" content="鮮魚・揚げ物・珍味・逸品など、炭火焼きに合う一品料理の全メニューをご覧いただけます。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a href="index.html" class="site-logo">おっちゃんの台所</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="site-nav">
+        <li><a href="sumibiyaki.html">炭火焼き</a></li>
+        <li><a href="menu.html" style="color:var(--gold);">お品書き</a></li>
+        <li><a href="sake.html">厳選のお酒</a></li>
+        <li><a href="course.html">コース・ご宴会</a></li>
+        <li><a href="access.html">アクセス</a></li>
+        <li><a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="nav-reserve" target="_blank" rel="noopener">WEB予約</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay">
+    <a href="index.html">HOME</a>
+    <a href="sumibiyaki.html">こだわりの炭火焼き</a>
+    <a href="menu.html">お品書き</a>
+    <a href="sake.html">厳選のお酒</a>
+    <a href="course.html">コース・ご宴会</a>
+    <a href="access.html">アクセス</a>
+    <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn btn-cta" target="_blank" rel="noopener" style="letter-spacing:0.2em;">WEB予約</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-bg" style="background-image:url('assets/images/menu-hero.jpg');"></div>
+      <div class="page-hero-content">
+        <span class="page-hero-label">MENU</span>
+        <h1>お品書き</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <p style="text-align:center; font-size:0.875rem; color:var(--text-sub); margin-bottom:3rem;">表示価格はすべて税込です。仕入れ状況により内容が変わる場合がございます。</p>
+
+        <!-- Tabs -->
+        <div class="menu-tabs" role="tablist">
+          <button class="tab-btn active" data-tab="tab-sumibiyaki" role="tab" aria-selected="true">炭火焼き串</button>
+          <button class="tab-btn" data-tab="tab-sashimi" role="tab" aria-selected="false">鮮魚</button>
+          <button class="tab-btn" data-tab="tab-age" role="tab" aria-selected="false">揚げ物</button>
+          <button class="tab-btn" data-tab="tab-chinmi" role="tab" aria-selected="false">珍味</button>
+          <button class="tab-btn" data-tab="tab-ippin" role="tab" aria-selected="false">逸品</button>
+          <button class="tab-btn" data-tab="tab-yasai" role="tab" aria-selected="false">野菜・食事</button>
+        </div>
+
+        <!-- 炭火焼き串 -->
+        <div class="tab-panel active" id="tab-sumibiyaki" role="tabpanel">
+          <div style="margin-bottom:2.5rem;">
+            <h3 style="font-size:0.75rem; letter-spacing:0.3em; color:var(--gold); border-bottom:1px solid var(--border); padding-bottom:0.875rem; margin-bottom:1.5rem;">焼き鳥</h3>
+            <div class="menu-grid">
+              <div class="menu-item"><span class="menu-name">もも</span><span class="menu-price">¥150</span></div>
+              <div class="menu-item"><span class="menu-name">せせり</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">つくね</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">ハツ</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">かわ</span><span class="menu-price">¥150</span></div>
+              <div class="menu-item"><span class="menu-name">レバー</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">ぼんじり</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">しろ（小腸）</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">うずら卵</span><span class="menu-price">¥150</span></div>
+              <div class="menu-item"><span class="menu-name">砂肝</span><span class="menu-price">¥200</span></div>
+            </div>
+          </div>
+          <div style="margin-bottom:2.5rem;">
+            <h3 style="font-size:0.75rem; letter-spacing:0.3em; color:var(--gold); border-bottom:1px solid var(--border); padding-bottom:0.875rem; margin-bottom:1.5rem;">野菜串</h3>
+            <div class="menu-grid">
+              <div class="menu-item"><span class="menu-name">ピーマン</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">ししとう</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">しいたけ</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">長ねぎ</span><span class="menu-price">¥200</span></div>
+              <div class="menu-item"><span class="menu-name">アスパラ</span><span class="menu-price">¥250</span></div>
+              <div class="menu-item"><span class="menu-name">みょうが</span><span class="menu-price">¥200</span></div>
+            </div>
+          </div>
+          <div style="margin-bottom:2.5rem;">
+            <h3 style="font-size:0.75rem; letter-spacing:0.3em; color:var(--gold); border-bottom:1px solid var(--border); padding-bottom:0.875rem; margin-bottom:1.5rem;">肉巻き串</h3>
+            <div class="menu-grid">
+              <div class="menu-item"><span class="menu-name">アスパラ巻き</span><span class="menu-price">¥300</span></div>
+              <div class="menu-item"><span class="menu-name">チーズ巻き</span><span class="menu-price">¥300</span></div>
+              <div class="menu-item"><span class="menu-name">うずら巻き</span><span class="menu-price">¥250</span></div>
+              <div class="menu-item"><span class="menu-name">エリンギ巻き</span><span class="menu-price">¥280</span></div>
+              <div class="menu-item"><span class="menu-name">ごぼう巻き</span><span class="menu-price">¥280</span></div>
+              <div class="menu-item"><span class="menu-name">トマト巻き</span><span class="menu-price">¥400</span></div>
+            </div>
+          </div>
+          <div>
+            <h3 style="font-size:0.75rem; letter-spacing:0.3em; color:var(--gold); border-bottom:1px solid var(--border); padding-bottom:0.875rem; margin-bottom:1.5rem;">シメ</h3>
+            <div class="menu-grid">
+              <div class="menu-item"><span class="menu-name">玉ねぎまるごとバター醤油焼き</span><span class="menu-price">¥500</span></div>
+              <div class="menu-item"><span class="menu-name">レタス包み</span><span class="menu-price">¥400</span></div>
+              <div class="menu-item"><span class="menu-name">炭火焼きおにぎり</span><span class="menu-price">¥300</span></div>
+              <div class="menu-item"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 鮮魚 -->
+        <div class="tab-panel" id="tab-sashimi" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><span class="menu-name">まぐろ刺し</span><span class="menu-price">¥480</span></div>
+            <div class="menu-item"><span class="menu-name">アジ刺し</span><span class="menu-price">¥480</span></div>
+            <div class="menu-item"><span class="menu-name">ブリ刺し</span><span class="menu-price">¥480</span></div>
+            <div class="menu-item"><span class="menu-name">刺し身三点盛り</span><span class="menu-price">¥1,200</span></div>
+            <div class="menu-item"><span class="menu-name">鳥刺し（たたき）</span><span class="menu-price">¥750</span></div>
+            <div class="menu-item"></div>
+          </div>
+        </div>
+
+        <!-- 揚げ物 -->
+        <div class="tab-panel" id="tab-age" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><span class="menu-name">自家製ポテトチップ</span><span class="menu-price">¥400</span></div>
+            <div class="menu-item"><span class="menu-name">からすみポテトチップ</span><span class="menu-price">¥700</span></div>
+            <div class="menu-item"><span class="menu-name">若鳥の唐揚げ</span><span class="menu-price">¥600</span></div>
+            <div class="menu-item"><span class="menu-name">長芋の唐揚げ</span><span class="menu-price">¥500</span></div>
+          </div>
+        </div>
+
+        <!-- 珍味 -->
+        <div class="tab-panel" id="tab-chinmi" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><span class="menu-name">えいひれ炭火焼き</span><span class="menu-price">¥500</span></div>
+            <div class="menu-item"><span class="menu-name">ぶりカマ塩焼き</span><span class="menu-price">¥780</span></div>
+            <div class="menu-item"><span class="menu-name">のどぐろ一夜干し</span><span class="menu-price">¥1,200</span></div>
+            <div class="menu-item"></div>
+          </div>
+        </div>
+
+        <!-- 逸品 -->
+        <div class="tab-panel" id="tab-ippin" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><span class="menu-name">とうもろこしかき揚げ</span><span class="menu-price">¥500</span></div>
+            <div class="menu-item"><span class="menu-name">だし巻き卵</span><span class="menu-price">¥600</span></div>
+          </div>
+        </div>
+
+        <!-- 野菜・食事 -->
+        <div class="tab-panel" id="tab-yasai" role="tabpanel">
+          <div class="menu-grid">
+            <div class="menu-item"><span class="menu-name">野菜スティック</span><span class="menu-price">¥600</span></div>
+            <div class="menu-item"><span class="menu-name">焼きおにぎり</span><span class="menu-price">¥300</span></div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:4rem;">
+          <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn btn-cta" target="_blank" rel="noopener">WEB予約はこちら</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">おっちゃんの台所</p>
+          <p class="footer-info">
+            〒180-0004<br>
+            東京都武蔵野市吉祥寺本町2丁目13-7<br>
+            グランデール吉祥寺B101<br><br>
+            TEL: <a href="tel:0422224155">0422-22-4155</a><br>
+            営業時間: 17:00〜22:00<br>
+            定休日: 水曜日（祝前日は営業）
+          </p>
+        </div>
+        <div>
+          <p class="footer-nav-title">MENU</p>
+          <ul class="footer-nav-list">
+            <li><a href="sumibiyaki.html">こだわりの炭火焼き</a></li>
+            <li><a href="menu.html">お品書き</a></li>
+            <li><a href="sake.html">厳選のお酒</a></li>
+            <li><a href="course.html">コース・ご宴会</a></li>
+            <li><a href="access.html">アクセス</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-nav-title">RESERVE</p>
+          <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn" target="_blank" rel="noopener" style="font-size:0.8125rem;">WEB予約はこちら</a>
+          <p style="margin-top:1.25rem; font-size:0.8rem; color:var(--text-sub); line-height:2;">
+            お電話でのご予約<br>
+            <a href="tel:0422224155" class="footer-tel">0422-22-4155</a>
+          </p>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2024 おっちゃんの台所 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="page-top" id="page-top" aria-label="ページトップへ">↑</button>
+
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

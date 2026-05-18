@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>コース・ご宴会 | おっちゃんの台所</title>
+  <meta name="description" content="2,000円〜のコース料理。飲み放題オプションあり。忘年会・歓送迎会・女子会など各種ご宴会を承ります。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <a href="index.html" class="site-logo">おっちゃんの台所</a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="site-nav">
+        <li><a href="sumibiyaki.html">炭火焼き</a></li>
+        <li><a href="menu.html">お品書き</a></li>
+        <li><a href="sake.html">厳選のお酒</a></li>
+        <li><a href="course.html" style="color:var(--gold);">コース・ご宴会</a></li>
+        <li><a href="access.html">アクセス</a></li>
+        <li><a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="nav-reserve" target="_blank" rel="noopener">WEB予約</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="nav-overlay" id="nav-overlay">
+    <a href="index.html">HOME</a>
+    <a href="sumibiyaki.html">こだわりの炭火焼き</a>
+    <a href="menu.html">お品書き</a>
+    <a href="sake.html">厳選のお酒</a>
+    <a href="course.html">コース・ご宴会</a>
+    <a href="access.html">アクセス</a>
+    <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn btn-cta" target="_blank" rel="noopener" style="letter-spacing:0.2em;">WEB予約</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-bg" style="background-image:url('assets/images/course-hero.jpg');"></div>
+      <div class="page-hero-content">
+        <span class="page-hero-label">COURSE &amp; BANQUET</span>
+        <h1>コース・ご宴会</h1>
+      </div>
+    </section>
+
+    <!-- Course cards -->
+    <section class="section">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <span class="section-label">COURSE</span>
+          <h2 class="section-title">コースのご案内</h2>
+          <span class="divider"></span>
+          <p style="margin-top:1.5rem; font-size:0.875rem; color:var(--text-sub);">表示価格はすべて税込です。内容はお任せになります。</p>
+        </div>
+
+        <div class="course-cards">
+          <div class="card course-card fade-in">
+            <span class="section-label">YAKITORI COURSE</span>
+            <h3>焼き鳥コース</h3>
+            <p class="course-price">¥2,000 <small>（税込・全4品）</small></p>
+            <ul class="course-list">
+              <li>鬼おろしと季節天ぷら</li>
+              <li>わかめと新玉ねぎのサラダ<br><small style="color:var(--text-sub);">または 春菊と新玉ねぎのサラダ</small></li>
+              <li>焼き鳥の盛り合わせ 5品</li>
+              <li>炭火焼きおにぎり</li>
+            </ul>
+          </div>
+          <div class="card course-card fade-in">
+            <span class="section-label">OTCHAN COURSE</span>
+            <h3>おっちゃんコース</h3>
+            <p class="course-price">¥3,000 <small>（税込・全6品）</small></p>
+            <ul class="course-list">
+              <li>鬼おろしと季節天ぷら</li>
+              <li>野菜スティック</li>
+              <li>お刺身 3点盛り</li>
+              <li>焼き鳥の盛り合わせ 5品</li>
+              <li>カレイの唐揚げ</li>
+              <li>炭火焼きおにぎり</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Nomihodai -->
+        <div class="card fade-in" style="margin-top:2rem; text-align:center; border-color:var(--gold);">
+          <span class="section-label">OPTION</span>
+          <h3 style="font-size:1.375rem; margin:0.5rem 0;">飲み放題</h3>
+          <p class="course-price" style="margin-bottom:0.5rem;">+¥2,000 <small>（税込）</small></p>
+          <p style="font-size:0.875rem; color:var(--text-sub);">
+            生ビール・日本酒・焼酎・ハイボール・サワー・梅酒・ソフトドリンクがお楽しみいただけます。<br>
+            お飲み物の持ち込みは無料にて承ります。
+          </p>
+        </div>
+
+        <!-- Seasonal -->
+        <div class="card fade-in" style="margin-top:1.5rem; display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
+          <div>
+            <span class="section-label">WINTER</span>
+            <h4 style="font-size:1.1rem; margin-bottom:0.75rem; letter-spacing:0.1em;">冬季限定 鍋コース</h4>
+            <p style="font-size:0.875rem; color:var(--text-sub); line-height:1.9;">
+              冬の期間限定で鍋を中心としたコースをご用意しています。
+              詳細はお電話にてお問い合わせください。
+            </p>
+          </div>
+          <div>
+            <span class="section-label">SUMMER</span>
+            <h4 style="font-size:1.1rem; margin-bottom:0.75rem; letter-spacing:0.1em;">夏季限定 夏野菜コース</h4>
+            <p style="font-size:0.875rem; color:var(--text-sub); line-height:1.9;">
+              夏は新鮮な夏野菜を中心としたコースをご提供。
+              旬の素材を炭火で堪能いただけます。
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:3rem;">
+          <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn btn-cta" target="_blank" rel="noopener" style="margin-right:1rem;">WEB予約</a>
+          <a href="tel:0422224155" class="btn">お電話で予約</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banquet -->
+    <section class="section section-alt">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <span class="section-label">BANQUET</span>
+          <h2 class="section-title">ご宴会・貸切のご案内</h2>
+          <span class="divider"></span>
+        </div>
+        <div class="banquet-features">
+          <div class="banquet-feature">
+            <div class="banquet-feature-icon">🥂</div>
+            <h4>忘年会・新年会</h4>
+            <p>年末年始のご宴会に。コースと飲み放題でお得にお楽しみいただけます。</p>
+          </div>
+          <div class="banquet-feature">
+            <div class="banquet-feature-icon">🌸</div>
+            <h4>歓送迎会</h4>
+            <p>大切な仲間との節目に。少人数から承ります。</p>
+          </div>
+          <div class="banquet-feature">
+            <div class="banquet-feature-icon">🏠</div>
+            <h4>貸切対応</h4>
+            <p>20名以下の小規模から50名までの貸切に対応。女子会・同窓会にも。</p>
+          </div>
+        </div>
+
+        <div class="card fade-in" style="margin-top:3rem;">
+          <table class="access-table">
+            <tr>
+              <th>席数</th>
+              <td>31席（カウンター席・小上がり個室）</td>
+            </tr>
+            <tr>
+              <th>貸切</th>
+              <td>20名以下 / 20〜50名（要相談）</td>
+            </tr>
+            <tr>
+              <th>対応行事</th>
+              <td>忘年会・新年会・歓送迎会・女子会・同窓会など</td>
+            </tr>
+            <tr>
+              <th>予約</th>
+              <td>WEB予約またはお電話にてお気軽にご相談ください</td>
+            </tr>
+            <tr>
+              <th>カード</th>
+              <td>VISA・Master・AMEX・JCB・Diners 利用可</td>
+            </tr>
+          </table>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <p style="font-size:0.875rem; color:var(--text-sub); margin-bottom:1.5rem;">ご宴会のご相談・お見積りはお気軽にどうぞ</p>
+          <a href="tel:0422224155" class="btn" style="font-size:1rem; letter-spacing:0.2em;">0422-22-4155</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">おっちゃんの台所</p>
+          <p class="footer-info">
+            〒180-0004<br>
+            東京都武蔵野市吉祥寺本町2丁目13-7<br>
+            グランデール吉祥寺B101<br><br>
+            TEL: <a href="tel:0422224155">0422-22-4155</a><br>
+            営業時間: 17:00〜22:00<br>
+            定休日: 水曜日（祝前日は営業）
+          </p>
+        </div>
+        <div>
+          <p class="footer-nav-title">MENU</p>
+          <ul class="footer-nav-list">
+            <li><a href="sumibiyaki.html">こだわりの炭火焼き</a></li>
+            <li><a href="menu.html">お品書き</a></li>
+            <li><a href="sake.html">厳選のお酒</a></li>
+            <li><a href="course.html">コース・ご宴会</a></li>
+            <li><a href="access.html">アクセス</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-nav-title">RESERVE</p>
+          <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn" target="_blank" rel="noopener" style="font-size:0.8125rem;">WEB予約はこちら</a>
+          <p style="margin-top:1.25rem; font-size:0.8rem; color:var(--text-sub); line-height:2;">
+            お電話でのご予約<br>
+            <a href="tel:0422224155" class="footer-tel">0422-22-4155</a>
+          </p>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2024 おっちゃんの台所 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="page-top" id="page-top" aria-label="ページトップへ">↑</button>
+
+  <script src="assets/js/scroll.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
