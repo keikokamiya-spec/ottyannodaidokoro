@@ -119,11 +119,119 @@
 
 
   /* ==============================================
-   * Section common
+   * Section common — reset overflow-causing patterns
    * ============================================== */
 
   section .wrap {
     position: relative;
+    overflow: hidden;
+  }
+
+  /* Hide decorative pseudo-elements that overflow with calc() offsets */
+  section *::before,
+  section *::after {
+    content: none !important;
+  }
+
+  /* Reset absolutely-positioned headings */
+  section h2,
+  section h3 {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  /* Reset absolutely-positioned photos */
+  section .photo,
+  section .left .photo,
+  section .right .photo {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Flex sets → column */
+  section .set1,
+  section .set2,
+  section .set3,
+  section .content {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: static !important;
+  }
+
+  /* Text containers: reset fixed widths and large paddings */
+  section .txt,
+  section .text,
+  section .left,
+  section .right,
+  section .set1 .left,
+  section .set1 .right,
+  section .set2 .text,
+  section .set3 .text {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 8px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: static !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Reset min-height on large background sections */
+  section[id] {
+    min-height: 0 !important;
+  }
+
+  /* Fixed-width content columns → full width */
+  section .content > div,
+  section .item {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Sliders/large image wrappers */
+  section .s5-lide,
+  section [class*="slide"],
+  section [class*="lide"] {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Feed / news blocks */
+  #feed {
+    flex-direction: column !important;
+  }
+
+  #feed dl {
+    width: 100% !important;
+  }
+
+  /* Announcement block */
+  .oshirase {
+    width: 90% !important;
+    position: static !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
   }
 
   /* ==============================================
