@@ -197,13 +197,6 @@
 
   section .wrap {
     position: relative;
-    overflow: hidden;
-  }
-
-  /* Hide decorative pseudo-elements that overflow with calc() offsets */
-  section *::before,
-  section *::after {
-    content: none !important;
   }
 
   /* Reset absolutely-positioned headings */
