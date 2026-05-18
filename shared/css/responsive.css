@@ -52,6 +52,7 @@
   header .wrap {
     position: relative;
     padding: 16px;
+    padding-top: 68px;
   }
 
   /* Logo */
