@@ -323,6 +323,38 @@
   }
 
   /* ==============================================
+   * sumibiyaki.html specific fixes
+   * ============================================== */
+
+  /* sec3: 焼き鳥セクション — 価格オーバーレイをリセット */
+  #sec3 .left,
+  #sec3 .right {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 !important;
+    top: auto !important;
+    right: auto !important;
+  }
+
+  #sec3 .price {
+    position: static !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    width: auto !important;
+    margin: 0 4px !important;
+  }
+
+  #sec3 .left .photo,
+  #sec3 .right .photo {
+    text-align: center;
+  }
+
+  #sec3 .left p,
+  #sec3 .right p {
+    text-align: center;
+  }
+
+  /* ==============================================
    * course.html specific fixes
    * ============================================== */
 
