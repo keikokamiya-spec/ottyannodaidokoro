@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   btn.addEventListener('click', function () {
     var open = drawer.classList.toggle('open');
-    btn.classList.toggle('active', open);
+    btn.textContent = open ? '✕' : '☰';
   });
 
   drawer.querySelectorAll('a').forEach(function (a) {
     a.addEventListener('click', function () {
       drawer.classList.remove('open');
-      btn.classList.remove('active');
+      btn.textContent = '☰';
     });
   });
 });

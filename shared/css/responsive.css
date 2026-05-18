@@ -135,7 +135,7 @@
 
   /* Phone icon button */
   .mobile-tel-btn {
-    font-size: 24px;
+    font-size: 22px;
     color: #fff;
     text-decoration: none;
     line-height: 1;
@@ -146,33 +146,15 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 4px;
+    padding: 0;
+    font-size: 26px;
+    color: #fff;
+    line-height: 1;
+    width: 32px;
+    height: 32px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 28px;
-    height: 22px;
-  }
-
-  .hamburger-btn span {
-    display: block;
-    width: 28px;
-    height: 3px;
-    background: #fff;
-    border-radius: 2px;
-    transition: transform 0.3s, opacity 0.3s;
-    transform-origin: center;
-  }
-
-  /* Animate to X when active */
-  .hamburger-btn.active span:nth-child(1) {
-    transform: translateY(9.5px) rotate(45deg);
-  }
-  .hamburger-btn.active span:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger-btn.active span:nth-child(3) {
-    transform: translateY(-9.5px) rotate(-45deg);
+    align-items: center;
+    justify-content: center;
   }
 
   /* Mobile menu drawer */
