@@ -9,6 +9,12 @@
     min-width: 0 !important;
   }
 
+  /* --- All images: shrink to fit, never enlarge --- */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   /* --- Base layout --- */
   body {
     font-size: 14px;
