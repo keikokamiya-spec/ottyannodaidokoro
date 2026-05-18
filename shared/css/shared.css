@@ -1,0 +1,285 @@
+﻿html:not(.responsive) {
+  min-width: 1000px; /* viewport */
+}
+/*=============================================
+ * body
+ *=============================================*/
+body {
+  color: #000;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 0.15em;
+  background: url("../img/shared/bg_bd.jpg");
+  min-width: inherit;
+  min-height: inherit;
+  max-height: 100%;
+}
+/*=============================================
+ * fonts - DON'T EDIT
+ *=============================================*/
+.fnt-mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fnt-meiryo {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.fnt-gothic {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+/*=============================================
+ * .fnt - customs
+ *=============================================*/
+.fnt-mincho {}
+.fnt-meiryo {}
+.fnt-gothic {}
+.fnt-garamond {}
+/*=============================================
+ * <main>
+ *=============================================*/
+main {
+  clear: both;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrap {
+  width: 1000px;
+}
+/*=============================================
+ * <header>
+ *=============================================*/
+header {}
+header h1 {}
+header .logo {}
+header .tel {}
+header nav {}
+/*=============================================
+ * key
+ *=============================================*/
+#key {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+}
+#key ul {
+  min-height: inherit;
+}
+#key li {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/*=============================================
+ * <section>
+ *=============================================*/
+section {}
+/*=============================================
+ * <footer>
+ *=============================================*/
+footer {
+  text-align: center;
+}
+footer .logo {}
+footer .tel {}
+footer nav {}
+/*=============================================
+ * .socialbuttons
+ *=============================================*/
+footer .socialbuttons {}
+/*=============================================
+ * copyright
+ *=============================================*/
+address {}
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(70, 26, 0, 0.39);
+  -moz-box-shadow: 0px 0px 15px 2px rgba(70, 26, 0, 0.39);
+  box-shadow: 0px 0px 15px 2px rgba(70, 26, 0, 0.39);
+}
+header .logo {
+  padding-top: 80px;
+  padding-bottom: 103px;
+}
+header h1 {
+  font-size: 13px;
+  line-height: 24px;
+  width: 220px;
+  position: absolute;
+  top: 55px;
+  left: 335px;
+}
+header .tel {
+  position: absolute;
+  top: 133px;
+  left: 305px;
+}
+header .nav-fl {
+  position: absolute;
+  top: 0;
+  right: -29px;
+}
+header #key {
+  margin-left: -100px;
+  margin-right: -100px;
+}
+header .btn_fixed {
+  position: fixed;
+  top: 180px;
+  right: 0;
+  z-index: 99;
+}
+header .nav-fixed {
+  background: url("../img/shared/bg-nav.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
+  transition: all .3s ease;
+  line-height: 0;
+}
+header .nav-fixed .wrap {
+  padding: 26px 60px 16px;
+  box-sizing: border-box;
+}
+header .nav-fixed nav {
+  padding-bottom: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.nav-fixed.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+footer {
+  background: url("../img/shared/bg-footer.jpg");
+  color: #fff;
+}
+footer .nav-inline {
+  padding-top: 62px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+footer .nav-inline a {
+  display: inline-block;
+  height: 34px;
+}
+footer .nav-inline a:nth-child(4) {
+  width: 140px;
+}
+footer .logo {
+  position: absolute;
+  top: 182px;
+  left: 34px;
+}
+footer .tel {
+  position: absolute;
+  top: 362px;
+  left: 34px;
+}
+footer .vcard {
+  margin-left: 458px;
+  padding-top: 62px;
+  padding-bottom: 34px;
+}
+footer .vcard dl {
+  display: table;
+  width: 100%;
+  text-align: left;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+footer .vcard dl dt {
+  display: table-cell;
+  width: 175px;
+}
+footer .vcard dl dd {
+  display: table-cell;
+}
+footer #socialbuttons {
+  margin-left: 256px;
+}
+footer address {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 100px 0 60px;
+}
+@media all and (-ms-high-contrast:none) {
+  .btn a img, .btn_1 a img, .btn_2 a img header .nav-fl a img {
+    transition: opacity 0s ease !important;
+    -moz-transition: opacity 0s ease !important;
+    -webkit-transition: opacity 0s ease !important;
+  }
+}
+/*追加予約ボタン*/
+
+.dis_b{
+  display: block !important;
+	position: absolute;
+  top: 542px;
+  left: 64px;
+}
+
+.btn_ebi_te{
+  background-color: #b51e23;
+  outline: 1px solid rgb(255, 255, 255);
+  outline-offset: -5px;
+  line-height: 3;
+  text-decoration: none !important;
+  display: flex;
+  width: 300px;
+  position: relative;
+  height: 50px;
+  }
+
+.triangle {
+  height: 10px;
+  aspect-ratio: cos(30deg);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  background: #ffffff;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 257px;
+}
+
+.btn_txt{
+ font-weight: bolder;
+ letter-spacing: 2px;
+ position: absolute;
+ top: 1px;
+ left: 69px;
+}
+
+.btn_ebi_te:hover {
+ opacity: 0.5;
+ transition-duration: 0.3s;
+}
+
+.icon_po{
+ position: absolute;
+ top: -2px;
+ left: 27px;
+}

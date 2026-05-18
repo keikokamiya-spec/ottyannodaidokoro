@@ -1,341 +1,306 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お品書き | おっちゃんの台所</title>
-  <meta name="description" content="元寿司職人が作る旬のお刺身、揚げ物、珍味など。吉祥寺の炭火焼き居酒屋おっちゃんの台所の全メニューをご覧いただけます。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<!--[if lt IE 7]><html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="ja"><![endif]-->
+<!--[if IE 7]><html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="ja"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="ja"><![endif]-->
+<!--[if IE 9]><html class="ie ie9 ie-lt10 no-js" lang="ja"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="ja">
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="author" content="FOODCONNECTION" />
+    <title>吉祥寺駅で刺身、海鮮、魚料理、唐揚げ、鳥刺しが美味しい居酒屋</title>
 
-  <header class="site-header" id="site-header">
-    <div class="header-inner">
-      <a href="index.html" class="site-logo">
-        おっちゃんの台所
-        <span>OTCHAN NO DAIDOKORO</span>
-      </a>
-      <div class="header-tel">
-        <a href="tel:0422224155">
-          <strong>0422-22-4155</strong>
-          <small style="font-size:0.6875rem; color:var(--gray); display:block; letter-spacing:0.05em;">17:00〜22:00（水曜定休）</small>
-        </a>
-      </div>
-      <button class="hamburger" id="hamburger" aria-label="メニュー">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:url" content="https://www.ottyannodaidokoro.com/menu.html" />
+    <meta property="og:image" content="shared/img/shared/ogp.png" />
+    <meta property="og:title" content="吉祥寺駅で刺身、海鮮、魚料理、唐揚げ、鳥刺しが美味しい居酒屋" />
+    <meta property="og:site_name" content="おっちゃんの台所" />
+    <meta property="og:description" content="吉祥寺駅の夜ご飯、ディナーに美味しい刺身、海鮮、魚料理、唐揚げ、鳥料理を楽しむなら居酒屋「おっちゃんの台所」。とうもろこしかき揚げや特製味噌の野菜スティック。新名物の削りたてかつお飯もおすすめ。" />
+    <meta name="description" content="吉祥寺駅の夜ご飯、ディナーに美味しい刺身、海鮮、魚料理、唐揚げ、鳥料理を楽しむなら居酒屋「おっちゃんの台所」。とうもろこしかき揚げや特製味噌の野菜スティック。新名物の削りたてかつお飯もおすすめ。" />
 
-  <nav class="site-nav-wrap">
-    <ul class="site-nav">
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="sumibiyaki.html">こだわりの炭火焼き</a></li>
-      <li><a href="menu.html" class="active">お品書き</a></li>
-      <li><a href="sake.html">厳選のお酒</a></li>
-      <li><a href="course.html">コース・ご宴会</a></li>
-      <li><a href="access.html">アクセス</a></li>
-      <li><a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" target="_blank" rel="noopener" style="color:#ffd080;">WEB予約</a></li>
-    </ul>
-  </nav>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    <meta name="viewport" content="width=1100, shrink-to-fit=no" />
 
-  <div class="nav-overlay" id="nav-overlay">
-    <a href="index.html">ホーム</a>
-    <a href="sumibiyaki.html">こだわりの炭火焼き</a>
-    <a href="menu.html">お品書き</a>
-    <a href="sake.html">厳選のお酒</a>
-    <a href="course.html">コース・ご宴会</a>
-    <a href="access.html">アクセス</a>
-    <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" target="_blank" rel="noopener" style="color:#ffd080;">WEB予約</a>
-  </div>
+    <link rel="canonical" href="https://www.ottyannodaidokoro.com/menu.html" />
+    <link rel="shortcut icon" href="shared/img/shared/favicon.ico" />
 
-  <div class="page-body">
+    <link rel="stylesheet" href="shared/css/font.css" />
+    <link rel="stylesheet" href="shared/css/common.css" />
+    <link rel="stylesheet" href="shared/css/shared.css" />
+    <link rel="stylesheet" href="shared/css/menu.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
     <main>
-
-      <section class="key-visual">
-        <div class="key-visual-bg" style="background-image:url('assets/images/menu-key.jpg');"></div>
-        <div class="key-visual-overlay"></div>
-        <div class="key-visual-text">
-          <h1>お品書き</h1>
-          <p>MENU</p>
-        </div>
-      </section>
-
-      <!-- S1: 刺身ハイライト -->
-      <section class="section section-white">
+      <header>
         <div class="wrap">
-          <div class="two-col fade-in">
-            <div class="col-img" style="background-image:url('assets/images/menu-sashimi.jpg');"></div>
-            <div class="col-text">
-              <span class="sec-head-en">FRESH FISH</span>
-              <h2>今日も美味しいもの</h2>
-              <div class="sec-head-line"></div>
-              <p style="margin-top:1.5rem;">
-                元寿司職人の店主が捌く、旬のお刺身。<br>
-                その日の仕入れによって変わる鮮魚を、<br>
-                丁寧な包丁さばきでお届けします。<br><br>
-                炭火焼きとともに、日本酒や焼酎とのペアリングをお楽しみください。
-              </p>
-            </div>
+          <h1>吉祥寺駅で刺身、海鮮、魚料理、唐揚げ、鳥刺しが美味しい居酒屋</h1>
+          <p class="logo non-over">
+            <a href="index.html"><img src="shared/img/shared/logo.png" alt="logo" /></a>
+          </p>
+          <p class="tel">
+            <a href="tel:0422224155" class="telhref"><img src="shared/img/shared/tel.png" alt="0422-22-4155" /></a>
+          </p>
+          <nav class="nav-fl">
+            <a href="access.html"><img src="shared/img/shared/nav1.png" alt="アクセス" width="70" height="270" class="btn" /></a>
+            <a href="course.html"><img src="shared/img/shared/nav2.png" alt="コース・ご宴会" width="70" height="270" class="btn" /></a>
+            <a href="sake.html"><img src="shared/img/shared/nav3.png" alt="厳選のお酒" width="70" height="270" class="btn" /></a>
+            <a href="menu.html"><img src="shared/img/shared/nav4_on.png" alt="お品書き" width="70" height="270" class="non-over" /></a>
+            <a href="sumibiyaki.html"><img src="shared/img/shared/nav5.png" alt="こだわりの炭火焼き" width="70" height="270" class="btn" /></a>
+            <a href="index.html"><img src="shared/img/shared/nav6.png" alt="ホーム" width="70" height="270" class="btn" /></a>
+          </nav>
+          <div id="key">
+            <p><img class="box-shadow" src="shared/img/menu/key.jpg" width="1200" height="760" alt="削りたてかつお飯" /></p>
           </div>
         </div>
-      </section>
-
-      <!-- S2: 人気一品 -->
-      <section class="section section-cream">
-        <div class="wrap">
-          <div class="sec-head fade-in">
-            <span class="sec-head-en">POPULAR DISHES</span>
-            <h2>人気の一品料理</h2>
-            <span class="sec-head-line"></span>
-          </div>
-          <div class="feature-3">
-            <div class="feature-item">
-              <div class="feature-img" style="background-image:url('assets/images/potato.jpg');"></div>
-              <div class="feature-body">
-                <h3>自家製ポテトチップ</h3>
-                <p>その場でスライスして揚げるポテトチップス。サクサクの食感が絶品。</p>
-                <p class="price">¥400</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <div class="feature-img" style="background-image:url('assets/images/dashimaki.jpg');"></div>
-              <div class="feature-body">
-                <h3>だし巻き卵</h3>
-                <p>ふわふわとした食感のだし巻き卵。ねぎ・明太子のトッピングも。</p>
-                <p class="price">¥600〜</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <div class="feature-img" style="background-image:url('assets/images/karaage.jpg');"></div>
-              <div class="feature-body">
-                <h3>若鳥の唐揚げ</h3>
-                <p>外はカリッと中はジューシー。定番の唐揚げも丁寧に仕上げます。</p>
-                <p class="price">¥600</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- S3: 全メニュー表 -->
-      <section class="section section-white">
-        <div class="wrap">
-          <div class="sec-head fade-in">
-            <span class="sec-head-en">ALL MENU</span>
-            <h2>お品書き一覧</h2>
-            <span class="sec-head-line"></span>
-            <p class="sec-lead" style="font-size:0.8125rem;">表示価格はすべて税込です。仕入れ状況により内容が変わる場合がございます。</p>
-          </div>
-
-          <div class="menu-tabs" role="tablist">
-            <button class="tab-btn active" data-tab="tab-yaki" role="tab">炭火焼き串</button>
-            <button class="tab-btn" data-tab="tab-sashimi" role="tab">鮮魚</button>
-            <button class="tab-btn" data-tab="tab-age" role="tab">揚げ物</button>
-            <button class="tab-btn" data-tab="tab-chinmi" role="tab">珍味</button>
-            <button class="tab-btn" data-tab="tab-ippin" role="tab">逸品</button>
-            <button class="tab-btn" data-tab="tab-yasai" role="tab">野菜</button>
-            <button class="tab-btn" data-tab="tab-shokuji" role="tab">食事・お新香</button>
-          </div>
-
-          <!-- 炭火焼き串 -->
-          <div class="tab-panel active" id="tab-yaki">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">焼き鳥</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">もも</span><span class="menu-price">¥150</span></div>
-                <div class="menu-item"><span class="menu-name">せせり</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">つくね</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">ハツ</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">かわ</span><span class="menu-price">¥150</span></div>
-                <div class="menu-item"><span class="menu-name">レバー</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">ぼんじり</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">しろ（小腸）</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">うずら卵</span><span class="menu-price">¥150</span></div>
-                <div class="menu-item"><span class="menu-name">砂肝</span><span class="menu-price">¥200</span></div>
-              </div>
-            </div>
-            <div class="menu-category">
-              <h3 class="menu-cat-title">野菜串</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">ピーマン</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">ししとう</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">しいたけ</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">長ねぎ</span><span class="menu-price">¥200</span></div>
-                <div class="menu-item"><span class="menu-name">アスパラ</span><span class="menu-price">¥250</span></div>
-                <div class="menu-item"><span class="menu-name">みょうが</span><span class="menu-price">¥200</span></div>
-              </div>
-            </div>
-            <div class="menu-category">
-              <h3 class="menu-cat-title">肉巻き串</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">アスパラ巻き</span><span class="menu-price">¥300</span></div>
-                <div class="menu-item"><span class="menu-name">チーズ巻き</span><span class="menu-price">¥300</span></div>
-                <div class="menu-item"><span class="menu-name">うずら巻き</span><span class="menu-price">¥250</span></div>
-                <div class="menu-item"><span class="menu-name">エリンギ巻き</span><span class="menu-price">¥280</span></div>
-                <div class="menu-item"><span class="menu-name">ごぼう巻き</span><span class="menu-price">¥280</span></div>
-                <div class="menu-item"><span class="menu-name">トマト巻き</span><span class="menu-price">¥400</span></div>
-              </div>
-            </div>
-            <div class="menu-category">
-              <h3 class="menu-cat-title">シメ</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">玉ねぎまるごとバター醤油焼き</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">レタス包み</span><span class="menu-price">¥400</span></div>
-                <div class="menu-item"><span class="menu-name">炭火焼きおにぎり</span><span class="menu-price">¥300</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 鮮魚 -->
-          <div class="tab-panel" id="tab-sashimi">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">鮮魚</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">まぐろ刺し</span><span class="menu-price">¥480</span></div>
-                <div class="menu-item"><span class="menu-name">アジ刺し</span><span class="menu-price">¥480</span></div>
-                <div class="menu-item"><span class="menu-name">ブリ刺し</span><span class="menu-price">¥480</span></div>
-                <div class="menu-item"><span class="menu-name">刺し身三点盛り</span><span class="menu-price">¥1,200</span></div>
-                <div class="menu-item"><span class="menu-name">鳥刺し（たたき）</span><span class="menu-price">¥750</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 揚げ物 -->
-          <div class="tab-panel" id="tab-age">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">揚げ物</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">自家製ポテトチップ</span><span class="menu-price">¥400</span></div>
-                <div class="menu-item"><span class="menu-name">からすみポテトチップ</span><span class="menu-price">¥700</span></div>
-                <div class="menu-item"><span class="menu-name">まるごとにんにく</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">さつま揚げ</span><span class="menu-price">¥600</span></div>
-                <div class="menu-item"><span class="menu-name">若鳥の唐揚げ</span><span class="menu-price">¥600</span></div>
-                <div class="menu-item"><span class="menu-name">長芋の唐揚げ</span><span class="menu-price">¥500</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 珍味 -->
-          <div class="tab-panel" id="tab-chinmi">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">珍味</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">えいひれ炭火焼き</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">ぶりカマ塩焼き</span><span class="menu-price">¥780</span></div>
-                <div class="menu-item"><span class="menu-name">のどぐろ一夜干し</span><span class="menu-price">¥1,200</span></div>
-                <div class="menu-item"><span class="menu-name">かつおの酒盗</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">梅水晶</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">たこわさび</span><span class="menu-price">¥450</span></div>
-                <div class="menu-item"><span class="menu-name">つぶ貝わさび漬け</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">ギバサと鬼おろし</span><span class="menu-price">¥550</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 逸品 -->
-          <div class="tab-panel" id="tab-ippin">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">逸品</h3>
-              <div class="menu-grid">
-                <div class="menu-item">
-                  <span class="menu-name">
-                    だし巻き卵
-                    <small class="menu-note">ねぎ・明太子トッピング 各+100円</small>
-                  </span>
-                  <span class="menu-price">¥600</span>
-                </div>
-                <div class="menu-item"><span class="menu-name">とうもろこしかき揚げ</span><span class="menu-price">¥500</span></div>
-                <div class="menu-item"><span class="menu-name">明太子の天ぷら</span><span class="menu-price">¥480</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 野菜 -->
-          <div class="tab-panel" id="tab-yasai">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">野菜</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">辛味噌キャベツ</span><span class="menu-price">¥400</span></div>
-                <div class="menu-item"><span class="menu-name">セロリサラダ</span><span class="menu-price">¥550</span></div>
-                <div class="menu-item"><span class="menu-name">野菜スティック</span><span class="menu-price">¥600</span></div>
-                <div class="menu-item"><span class="menu-name">若芽と玉ねぎサラダ</span><span class="menu-price">¥550</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 食事・お新香 -->
-          <div class="tab-panel" id="tab-shokuji">
-            <div class="menu-category">
-              <h3 class="menu-cat-title">食事</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">焼きおにぎり</span><span class="menu-price">¥300</span></div>
-                <div class="menu-item"><span class="menu-name">手羽先にぎり</span><span class="menu-price">¥550</span></div>
-                <div class="menu-item"><span class="menu-name">鉄火巻き</span><span class="menu-price">¥400</span></div>
-                <div class="menu-item"><span class="menu-name">かっぱ巻き</span><span class="menu-price">¥300</span></div>
-              </div>
-            </div>
-            <div class="menu-category">
-              <h3 class="menu-cat-title">お新香</h3>
-              <div class="menu-grid">
-                <div class="menu-item"><span class="menu-name">ぬか漬け</span><span class="menu-price">¥450</span></div>
-                <div class="menu-item"><span class="menu-name">浅漬け</span><span class="menu-price">¥450</span></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-center">
-            <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn btn-red" target="_blank" rel="noopener">WEB予約はこちら</a>
-          </div>
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <div class="footer-grid">
-          <div>
-            <p class="footer-logo">おっちゃんの台所</p>
-            <p class="footer-info">
-              〒180-0004<br>東京都武蔵野市吉祥寺本町2丁目13-7<br>グランデール吉祥寺B101<br><br>
-              TEL: <a href="tel:0422224155">0422-22-4155</a><br>
-              営業時間: 17:00〜22:00　定休日: 水曜日
+        <p class="btn_fixed">
+          <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" target="_blank" rel="nofollow"><img src="shared/img/shared/btn-fixed.png" width="81" height="340" alt="WEB予約はこちら" /></a>
+        </p>
+        <div class="nav-fixed">
+          <div class="wrap">
+            <nav>
+              <a href="index.html"><img src="shared/img/shared/navf1.png" alt="ホーム" width="91" height="20" class="btn" /></a>
+              <a href="sumibiyaki.html"><img src="shared/img/shared/navf2.png" alt="こだわりの炭火焼き" width="224" height="20" class="btn" /></a>
+              <a href="menu.html"><img src="shared/img/shared/navf3_on.png" alt="お品書き" width="125" height="20" class="non-over" /></a>
+              <a href="sake.html"><img src="shared/img/shared/navf4.png" alt="厳選のお酒" width="146" height="20" class="btn" /></a>
+              <a href="course.html"><img src="shared/img/shared/navf5.png" alt="コース・ご宴会" width="183" height="20" class="btn" /></a>
+              <a href="access.html"><img src="shared/img/shared/navf6.png" alt="アクセス" width="110" height="20" class="btn" /></a>
+            </nav>
+            <p>
+              <a href="tel:0422224155" class="telhref"><img src="shared/img/shared/tel-fixed.png" alt="0422-22-4155" /></a>
             </p>
           </div>
-          <div>
-            <p class="footer-nav-ttl">MENU</p>
-            <ul class="footer-nav-list">
-              <li><a href="sumibiyaki.html">こだわりの炭火焼き</a></li>
-              <li><a href="menu.html">お品書き</a></li>
-              <li><a href="sake.html">厳選のお酒</a></li>
-              <li><a href="course.html">コース・ご宴会</a></li>
-              <li><a href="access.html">アクセス</a></li>
-            </ul>
-          </div>
-          <div>
-            <p class="footer-nav-ttl">RESERVE</p>
-            <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="btn-red btn" target="_blank" rel="noopener" style="display:block; text-align:center; font-size:0.8125rem; margin-bottom:1rem;">WEB予約はこちら</a>
-            <p style="font-size:0.8rem; color:#8a7060; line-height:2;">お電話でのご予約<br><a href="tel:0422224155" class="footer-tel-num">0422-22-4155</a></p>
+        </div>
+      </header>
+      <section class="nav-target">
+        <div id="sec1">
+          <div class="wrap">
+            <h2><img src="shared/img/menu/s1-h2.png" width="213" height="707" alt="今日も美味しいもの" /></h2>
+            <p class="txt">
+              吉祥寺駅北口から歩いて6分。<br />
+              繁華街から程近い場所に暖簾を掲げる居酒屋「おっちゃんの台所」ではいつでも変わらず、美味しいお料理をご用意しております。<br />
+              自慢の炭火焼きだけでなく、元寿司職人の店主が作る旬のお刺身、海鮮、魚料理、唐揚げ、鳥刺しなどひと手間加えた本格的で美味しい料理は沢山のお客様にお喜びいただいています。幅広いメニューをご用意しておりますので、1軒目としてのお食事でも、お酒メインの2軒目でも気軽にご利用いただけます。温かくアットホームな空間で、是非ごゆっくりと美味しいお食事をお楽しみください。
+            </p>
           </div>
         </div>
-        <p class="footer-bottom">© 2024 おっちゃんの台所 All Rights Reserved.</p>
-      </div>
-    </footer>
-  </div>
+        <div id="sec2">
+          <div class="wrap">
+            <h2><img src="shared/img/menu/s2-h2.png" width="600" height="140" alt="人気の一品料理" /></h2>
+            <p class="note">※価格は全て税込みです。</p>
+            <div class="content">
+              <div class="text">
+                <h3><img src="shared/img/menu/s2-h3-a.png" width="104" height="251" alt="お刺身で旬を味わう" /></h3>
+                <dl>
+                  <dt class="fnt-mincho">刺身3点盛り</dt>
+                  <dd>1,200<span>円</span></dd>
+                </dl>
+                <p class="txt">
+                  吉祥寺駅の隠れ家居酒屋「おっちゃんの台所」では、<br />
+                  定番のまぐろ刺しは<br />
+                  もちろん、旬のお刺身の<br />
+                  盛り合わせもご用意しております。<br />
+                  切り方ひとつで味が変わるお造りは<br />
+                  元鮨職人の店主の真骨頂。<br />
+                  魚のプロが捌く、旬のお刺身を<br />
+                  是非ご堪能ください。
+                </p>
+              </div>
+              <p class="photo"><img src="shared/img/menu/s2-img-1.png" width="1106" height="933" alt="3点盛り" /></p>
+            </div>
+          </div>
+        </div>
+        <div id="sec3">
+          <div class="wrap">
+            <div class="set1">
+              <h2><img src="shared/img/menu/s3-h2.png" width="76" height="304" alt="定番の一品" /></h2>
+              <p class="photo"><img src="shared/img/menu/s3-img-1.png" width="750" height="487" alt="とうもろこしかき揚げ" /></p>
+            </div>
+            <div class="set2">
+              <div class="text_1">
+                <dl>
+                  <dt><img src="shared/img/menu/s3-h3-a.png" width="385" height="51" alt="とうもろこしかき揚げ" /></dt>
+                  <dd>500<span>円</span></dd>
+                </dl>
+                <p class="txt">
+                  女性人気の高い「とうもろこしかき揚げ」。<br />
+                  とうもろこしの甘味とさっくさくの衣の相性は抜群。<br />
+                  ついつい手が止まらなくなる一品です。
+                </p>
+              </div>
+              <div class="text_2">
+                <dl>
+                  <dt><img src="shared/img/menu/s3-h3-b.png" width="270" height="52" alt="野菜スティック" /></dt>
+                  <dd>600<span>円</span></dd>
+                </dl>
+                <p class="txt">美味しさの秘密は、その甘辛さがクセになる特製味噌。仕上げの工程では2時間休まず練り続けるため、実はとっても手間暇かかった一品です。味噌だけで日本酒がぐいぐい飲めちゃいます。</p>
+              </div>
+              <p class="photo"><img src="shared/img/menu/s3-img-2.png" width="586" height="639" alt="野菜スティック" /></p>
+            </div>
+            <div class="set3">
+              <div class="text">
+                <dl>
+                  <dt><img src="shared/img/menu/s3-h3-c.png" width="272" height="110" alt="自家製ポテトチップス" /></dt>
+                  <dd>400<span>円</span></dd>
+                </dl>
+                <p class="txt">その場でスライスして揚げるポテトチップスはハイボールとの相性抜群。厚めにスライスし、じっくりと揚げることで、噛み応えのある食感に仕上げています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sec4">
+          <div class="wrap">
+            <br /><br /><br /><br /><br /><br />
+            <dl>
+              <dt><img src="shared/img/menu/s4-h3-a.png" width="313" height="54" alt="削りたてかつお飯" /></dt>
+              <dd>【現在販売を休止しています】</dd>
+            </dl>
+            <p class="txt">
+              実はシンプルな料理ほど美味しい。<br />
+              そう考え、生まれたのが新名物「削りたてかつお飯」です。<br />
+              注文が入ってから鰹節を削り、お出しする直前に白飯の上に<br />
+              どっさりと乗せます。お醤油をひと回しして、<br />
+              豪快にお召し上がりください。
+            </p>
+          </div>
+        </div>
+        <div id="sec5">
+          <div class="wrap">
+            <h2><img src="shared/img/menu/s4-a-h2.png" width="800" height="144" alt="「焼き鳥」に「炭火焼きおにぎり」" /></h2>
+            <p class="txt">
+              吉祥寺駅の隠れ家居酒屋「おっちゃんの台所」の自慢は何といっても炭火焼き料理。<br />
+              新鮮な食材を炭火でじっくりと時間をかけて焼くことで、<br />
+              素材本来の旨味を引き出しています。<br />
+              定番の焼き鳥はもちろん、当店ならではの野菜焼きや、<br />
+              名物の炭火焼きおにぎりをお楽しみいただけます。
+            </p>
+            <p class="btn">
+              <a href="sumibiyaki.html"><img src="shared/img/menu/s5-btn.png" width="430" height="70" alt="炭火焼きメニューはこちら" /></a>
+            </p>
+            <p class="btn_2">
+              <a href="course.html"><img src="shared/img/menu/s5-btn-2.png" width="920" height="390" alt="用途に合わせたコースはこちら" /></a>
+            </p>
+          </div>
+        </div>
+        <div id="sec6">
+          <div class="wrap">
+            <h2><img src="shared/img/menu/s6-h2.png" width="200" height="80" alt="food" /></h2>
+            <p class="note">※価格は全て税込みです。</p>
+            <div class="content">
+              <div>
+                <div class="item">
+                  <h3>鮮魚</h3>
+                  <dl><dt>まぐろ刺し</dt><dd>480円</dd></dl>
+                  <dl><dt>アジ刺し</dt><dd>480円</dd></dl>
+                  <dl><dt>ブリ刺し</dt><dd>480円</dd></dl>
+                  <dl><dt>刺し身三点盛り</dt><dd>1,200円</dd></dl>
+                  <dl><dt>鳥刺し（たたき）</dt><dd>750円</dd></dl>
+                </div>
+                <div class="item">
+                  <h3>揚げ物</h3>
+                  <dl><dt>自家製ポテトチップ</dt><dd>400円</dd></dl>
+                  <dl><dt>からすみポテトチップ</dt><dd>700円</dd></dl>
+                  <dl><dt>まるごとにんにく</dt><dd>500円</dd></dl>
+                  <dl><dt>さつま揚げ</dt><dd>600円</dd></dl>
+                  <dl><dt>若鳥の唐揚げ</dt><dd>600円</dd></dl>
+                  <dl><dt>長芋の唐揚げ</dt><dd>500円</dd></dl>
+                </div>
+              </div>
+              <div>
+                <div class="item">
+                  <h3>珍味</h3>
+                  <dl><dt>えいひれ炭火焼き</dt><dd>500円</dd></dl>
+                  <dl><dt>ぶりカマ塩焼き</dt><dd>780円</dd></dl>
+                  <dl><dt>のどぐろ一夜干し</dt><dd>1,200円</dd></dl>
+                  <dl><dt>かつおの酒盗</dt><dd>500円</dd></dl>
+                  <dl><dt>梅水晶</dt><dd>500円</dd></dl>
+                  <dl><dt>たこわさび</dt><dd>450円</dd></dl>
+                  <dl><dt>つぶ貝わさび漬け</dt><dd>500円</dd></dl>
+                  <dl><dt>ギバサと鬼おろし</dt><dd>550円</dd></dl>
+                </div>
+                <div class="item">
+                  <h3>逸品</h3>
+                  <dl><dt>だし巻き卵<br />・トッピング（ねぎ・明太子）</dt><dd>600円<br />各100円</dd></dl>
+                  <dl><dt>とうもろこしかき揚げ</dt><dd>500円</dd></dl>
+                  <dl><dt>明太子の天ぷら</dt><dd>480円</dd></dl>
+                </div>
+              </div>
+              <div>
+                <div class="item">
+                  <h3>野菜</h3>
+                  <dl><dt>辛味噌キャベツ</dt><dd>400円</dd></dl>
+                  <dl><dt>セロリサラダ</dt><dd>550円</dd></dl>
+                  <dl><dt>野菜スティック</dt><dd>600円</dd></dl>
+                  <dl><dt>若芽と玉ねぎサラダ</dt><dd>550円</dd></dl>
+                </div>
+                <div class="item">
+                  <h3>食事</h3>
+                  <dl><dt>焼きおにぎり</dt><dd>300円</dd></dl>
+                  <dl><dt>手羽先にぎり</dt><dd>550円</dd></dl>
+                  <dl><dt>鉄火巻き</dt><dd>400円</dd></dl>
+                  <dl><dt>かっぱ巻き</dt><dd>300円</dd></dl>
+                </div>
+                <div class="item">
+                  <h3>お新香</h3>
+                  <dl><dt>ぬか漬け</dt><dd>450円</dd></dl>
+                  <dl><dt>浅漬け</dt><dd>450円</dd></dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="wrap">
+          <nav class="nav-inline">
+            <a href="index.html">ホーム</a>
+            <a href="sumibiyaki.html">こだわりの炭火焼き</a>
+            <a href="menu.html">お品書き</a>
+            <a href="sake.html">厳選のお酒</a>
+            <a href="course.html">コース・ご宴会</a>
+            <a href="access.html">アクセス</a>
+            <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" target="_blank" rel="nofollow">WEB予約</a>
+          </nav>
+          <p class="logo"><img src="shared/img/shared/footer-logo.png" alt="logo" /></p>
+          <p class="tel">
+            <a href="tel:0422224155" class="telhref"><img src="shared/img/shared/footer-tel.png" alt="0422-22-4155" /></a>
+          </p>
+          <div class="dis_b">
+            <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" target="_blank" rel="nofollow" class="btn_ebi_te">
+              <span class="btn_txt">WEB予約はこちら</span>
+              <span class="triangle sankaku_po"></span>
+            </a>
+          </div>
+          <div class="vcard">
+            <dl><dt>店名</dt><dd>おっちゃんの台所</dd></dl>
+            <dl><dt>住所</dt><dd>〒180-0004<br />東京都武蔵野市吉祥寺本町2丁目13-7<br />グランデール吉祥寺B101</dd></dl>
+            <dl><dt>アクセス</dt><dd>JR他各線「吉祥寺駅」より徒歩6分</dd></dl>
+            <dl><dt>営業時間</dt><dd>17:00～22:00</dd></dl>
+            <dl><dt>定休日</dt><dd>水曜日※但し祝前日は営業いたします</dd></dl>
+            <dl><dt>クレジットカード</dt><dd>可（VISA,Master,AMEX,JCB,Diners）</dd></dl>
+          </div>
+          <div id="socialbuttons" class="clearfix"></div>
+          <address>
+            &copy; おっちゃんの台所. All Rights Reserved.<br />
+            <a class="cookie" href="https://www.foodconnection.jp/cookie/cookie_share.html" target="_blank" rel="nofollow">Cookie情報等の取り扱いについて</a>
+          </address>
+        </div>
+      </footer>
+    </main>
 
-  <div class="fixed-cta">
-    <a href="tel:0422224155" class="fixed-cta-tel"><span>0422-22-4155</span></a>
-    <a href="https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13009969" class="fixed-cta-reserve" target="_blank" rel="noopener"><span>WEB予約はこちら</span></a>
-  </div>
-  <button id="page-top" aria-label="ページトップへ">↑</button>
+    <p id="pagetop"><img src="shared/img/shared/pagetop.png" alt="最上部へ" /></p>
+    <div id="fb-root"></div>
 
-  <script src="assets/js/scroll.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/modal.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="shared/js/base.js"></script>
+    <script src="shared/js/autoload.js"></script>
+    <script src="shared/js/jquery.min.js"></script>
+    <script src="shared/js/common.js"></script>
+    <script type="text/javascript" src="shared/js/sp_botan.js"></script>
+    <script src="shared/js/shared.js"></script>
+  </body>
 </html>

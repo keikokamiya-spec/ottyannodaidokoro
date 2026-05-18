@@ -1,0 +1,305 @@
+#sec1 {
+  min-height: 818px;
+  position: relative;
+  background: url("../img/menu/s1-bg.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+#sec1:before {
+  content: url("../img/menu/s1-deco.png");
+  position: absolute;
+  top: -18px;
+  left: calc(50% + 274px);
+}
+#sec1 h2 {
+  position: absolute;
+  top: -126px;
+  left: 675px;
+  z-index: 9;
+}
+#sec1 h3 {
+  padding: 90px 20px 18px 59px;
+}
+#sec1 .txt {
+  width: 560px;
+  padding-left: 50px;
+  padding-top: 87px;
+}
+#sec2 {
+  position: relative;
+}
+#sec2:before {
+  content: url("../img/menu/s2-bg-img.png");
+  position: absolute;
+  top: 0;
+  left: calc(50% - 900px);
+}
+#sec2 h2 {
+  text-align: center;
+  padding: 85px 0 14px;
+}
+#sec2 .note {
+  text-align: center;
+  padding-bottom: 26px;
+}
+#sec2 .content {
+  position: relative;
+}
+#sec2 .content dl {
+  padding-top: 45px;
+  padding-left: 49px;
+}
+#sec2 .content dl dt {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 9px;
+  letter-spacing: 0.1em;
+}
+#sec2 .content dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+}
+#sec2 .content dl dd span {
+  font-size: 20px;
+}
+#sec2 .content h3 {
+  padding-left: 136px;
+}
+#sec2 .content .txt {
+  padding: 21px 0 84px 49px;
+  width: 300px;
+}
+#sec2 .content .photo {
+  position: absolute;
+  top: -214px;
+  left: 294px;
+}
+#sec3 {
+  padding-bottom: 218px;
+}
+#sec3 .set1 {
+  position: relative;
+  padding-bottom: 48px;
+}
+#sec3 .set1:before {
+  content: url("../img/menu/s3-deco-1.png");
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 37px);
+}
+#sec3 .set1 h2 {
+  position: absolute;
+  top: 105px;
+  left: 786px;
+}
+#sec3 .set1 .photo {
+  margin-left: -100px;
+}
+#sec3 .set2 {
+  position: relative;
+}
+#sec3 .set2 dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+  padding-top: 15px;
+}
+#sec3 .set2 dl dd span {
+  font-size: 20px;
+}
+#sec3 .set2 .photo {
+  position: absolute;
+  top: -38px;
+  left: 481px;
+}
+#sec3 .set2 .text_1 .txt {
+  padding: 12px 0 79px 4px;
+  width: 450px;
+}
+#sec3 .set2 .text_2 dl {
+  padding-left: 83px;
+}
+#sec3 .set2 .text_2 .txt {
+  padding: 12px 0 69px 86px;
+  width: 420px;
+}
+#sec3 .set3 {
+  position: relative;
+  color: #fff;
+  min-height: 450px;
+  z-index: 2;
+}
+#sec3 .set3:before {
+  content: url("../img/menu/s3-bg-imga.jpg");
+  position: absolute;
+  top: 0;
+  left: calc(50% - 550px);
+  z-index: -1;
+}
+#sec3 .set3:after {
+  content: url("../img/menu/s3-deco-2.png");
+  position: absolute;
+  z-index: -2;
+  top: -122px;
+  left: -374px;
+}
+#sec3 .set3 .text {
+  padding-left: 610px;
+}
+#sec3 .set3 dl {
+  padding-top: 79px;
+}
+#sec3 .set3 dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+  padding-top: 15px;
+}
+#sec3 .set3 dl dd span {
+  font-size: 20px;
+}
+#sec3 .set3 .txt {
+  padding: 12px 40px 10px 2px;
+}
+#sec4 {
+  background: url("../img/shared/bg-footer.jpg");
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+#sec4:before {
+  content: url("../img/menu/s4-bg-img-1.png");
+  position: absolute;
+  top: -332px;
+  left: calc(50% - 700px);
+  z-index: -1;
+}
+#sec4:after {
+  content: url("../img/menu/s5-bg-img-2.png");
+  position: absolute;
+  top: -103px;
+  left: calc(50% - 508px);
+  z-index: -2;
+}
+#sec4 h2 {
+  padding-top: 120px;
+  padding-left: 140px;
+  position: relative;
+}
+#sec4 h2:before {
+  content: url("../img/menu/s4-deco-ad.png");
+  position: absolute;
+  top: -248px;
+  left: 369px;
+  z-index: -3;
+}
+#sec4 dl {
+  padding-top: 42px;
+}
+#sec4 dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+  padding-top: 15px;
+}
+#sec4 dl dd span {
+  font-size: 20px;
+}
+#sec4 .txt {
+  padding-top: 13px;
+  padding-bottom: 74px;
+}
+#sec5 {
+  background: url("../img/menu/s4-bga2.jpg") center top no-repeat;
+  color: #fff;
+}
+#sec5 h2 {
+  text-align: center;
+  padding: 220px 0 20px;
+}
+#sec5 .txt {
+  padding: 48px 0 59px 500px;
+}
+#sec5 .btn {
+  padding-left: 500px;
+  padding-bottom: 169px;
+}
+#sec5 .btn_2 {
+  text-align: center;
+  padding-bottom: 70px;
+}
+#sec6 {
+  position: relative;
+  background: url("../img/course/s6-bga.png");
+}
+#sec6:before {
+  content: url("../img/menu/s6-deco-1.png");
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 360px);
+}
+#sec6:after {
+  content: url("../img/menu/s6-deco-2.png");
+  position: absolute;
+  top: 126px;
+  left: calc(50% + 332px);
+}
+#sec6 h2 {
+  text-align: center;
+  padding: 95px 0 14px;
+}
+#sec6 .note {
+  text-align: center;
+  padding-bottom: 38px;
+}
+#sec6 .content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 71px;
+}
+#sec6 .content > div {
+  width: 320px;
+}
+#sec6 .item {
+  padding-bottom: 13px;
+}
+#sec6 .item h3 {
+  text-align: center;
+  color: #fff;
+  background: url("../img/sake/s6-bg-h3.png");
+  line-height: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+#sec6 .item dl {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #876b3a;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+#sec6 .item dl dt {
+  display: table-cell;
+  padding-left: 9px;
+  letter-spacing: 0;
+}
+#sec6 .item dl dd {
+  display: table-cell;
+  text-align: right;
+  color: #b51e23;
+  padding-right: 6px;
+}
+@media screen and (min-width: 1800px) {
+  #sec2:before {
+    left: 0;
+  }
+  #sec4:after {
+    left: auto;
+    right: 0;
+  }
+}

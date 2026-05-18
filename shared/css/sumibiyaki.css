@@ -1,0 +1,397 @@
+#sec1 {
+  background: url("../img/sumibiyaki/s1-h2.jpg") center bottom no-repeat;
+  background-size: cover;
+  min-height: 818px;
+  position: relative;
+}
+#sec1:before {
+  content: url("../img/sumibiyaki/s1-deco.png");
+  position: absolute;
+  top: 41px;
+  left: calc(50% - 1027px);
+}
+#sec1 h2 {
+  position: absolute;
+  z-index: 9;
+  left: 137px;
+  top: -120px;
+}
+#sec1 .txt {
+  padding-top: 88px;
+  padding-left: 429px;
+  padding-right: 20px;
+}
+#sec2 {
+  position: relative;
+}
+#sec2:before {
+  content: url("../img/sumibiyaki/s2-bg-img.png");
+  position: absolute;
+  top: 0;
+  left: calc(50% - 336px);
+}
+#sec2 h2 {
+  text-align: center;
+  padding: 120px 0 27px;
+}
+#sec2 .set1 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-bottom: 59px;
+}
+#sec2 .set1 .photo {
+  margin-left: -170px;
+  width: 750px;
+  padding-top: 45px;
+}
+#sec2 .set1 .text {
+  width: 420px;
+}
+#sec2 .set1 .text h3 {
+  padding-left: 165px;
+}
+#sec2 .set1 .text .txt {
+  padding-left: 41px;
+  padding-top: 42px;
+}
+#sec2 .set2 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-bottom: 120px;
+  position: relative;
+}
+#sec2 .set2:before {
+  content: url("../img/sumibiyaki/s2-deco.png");
+  position: absolute;
+  bottom: -12px;
+  left: calc(50% - 1145px);
+}
+#sec2 .set2 .text {
+  width: 560px;
+}
+#sec2 .set2 .text h3 {
+  padding-top: 55px;
+  padding-left: 51px;
+}
+#sec2 .set2 .text .txt {
+  padding-left: 59px;
+  padding-top: 26px;
+}
+#sec2 .set2 .photo {
+  width: 550px;
+  margin-right: -109px;
+}
+#sec3 {
+  position: relative;
+  background: url("../img/shared/bg-footer.jpg");
+  color: #fff;
+}
+#sec3:before {
+  content: '';
+  background: url("../img/sumibiyaki/s3-bg.jpg");
+  position: absolute;
+  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#sec3 h2 {
+  text-align: center;
+  padding-top: 98px;
+  padding-bottom: 74px;
+}
+#sec3 .price {
+  position: absolute;
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+}
+#sec3 .price span {
+  font-size: 20px;
+}
+#sec3 .left {
+  position: absolute;
+  top: -100px;
+  left: -87px;
+}
+#sec3 .left .price_1 {
+  top: 344px;
+  left: 85px;
+}
+#sec3 .left .price_2 {
+  top: 292px;
+  left: 403px;
+  width: 80px;
+}
+#sec3 .left .price_3 {
+  bottom: 2px;
+  left: 169px;
+}
+#sec3 .left .price_4 {
+  bottom: 23px;
+  left: 377px;
+}
+#sec3 .right {
+  top: -40px;
+  position: absolute;
+  right: -195px;
+}
+#sec3 .right .price_1 {
+  top: 443px;
+  left: 339px;
+}
+#sec3 .right .price_2 {
+  top: 660px;
+  left: -13px;
+}
+#sec3 .right .price_3 {
+  bottom: 213px;
+  left: 94px;
+}
+#sec3 .right .price_4 {
+  bottom: -1px;
+  left: 279px;
+}
+#sec3 .note {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#sec3 .txt {
+  text-align: center;
+  padding-bottom: 165px;
+  position: relative;
+}
+#sec3 .txt:before {
+  content: url("../img/sumibiyaki/s3-deco.png");
+  top: 100px;
+  left: -100px;
+  position: absolute;
+}
+#sec4 {
+  position: relative;
+  color: #fff;
+  min-height: 570px;
+}
+#sec4:before {
+  content: url("../img/sumibiyaki/s4-bg.jpg");
+  position: absolute;
+  top: -80px;
+  left: calc(50% - 600px);
+}
+#sec4 h2 {
+  padding-top: 47px;
+  padding-bottom: 16px;
+  margin-left: -3px;
+}
+#sec5 {
+  background: url("../img/sumibiyaki/s5-bg.jpg") center top no-repeat;
+}
+#sec5 .bx-wrapper .bx-pager.bx-default-pager a {
+  background-color: transparent;
+  display: block;
+  height: 11px;
+  margin: 0 7px;
+  border-radius: 100%;
+  outline: 0 none;
+  text-indent: -9999px;
+  width: 11px;
+  background: transparent;
+  position: relative;
+  border: 9px solid #c15845;
+}
+#sec5 .bx-wrapper .bx-pager.bx-default-pager a:hover, #sec5 .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #b51e23;
+  border-color: #b51e23;
+}
+#sec5 .bx-pager.bx-default-pager {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -6px;
+}
+#sec5 .set1 {
+  position: relative;
+  padding-bottom: 55px;
+}
+#sec5 .set1 h2 {
+  padding-top: 123px;
+  padding-left: 74px;
+  margin-bottom: -85px;
+}
+#sec5 .set1 h3 {
+  position: absolute;
+  top: 164px;
+  left: 577px;
+  z-index: 60;
+}
+#sec5 .set1 .s5-lide {
+  margin-right: -220px;
+  width: 1220px !important;
+　position: relative;
+}
+#sec5 .set1 .s5-lide .note {
+  position: absolute;
+	top: 285px;
+	left: 300px;
+}
+#sec5 .set1 .item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+#sec5 .set1 .item .text {
+  width: 570px;
+  padding: 155px 0 0 79px;
+  box-sizing: border-box;
+}
+#sec5 .set1 .item .text dl dt {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 9px;
+  letter-spacing: 0.1em;
+}
+#sec5 .set1 .item .text dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+}
+#sec5 .set1 .item .text dl dd span {
+  font-size: 20px;
+}
+#sec5 .set1 .item .text .txt {
+  padding: 20px 40px 0 0;
+}
+#sec5 .set1 .item .photo {
+  width: 650px;
+}
+#sec5 .set2 {
+  padding-bottom: 99px;
+}
+#sec5 .set2 .content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 38px;
+}
+#sec5 .set2 .content .text {
+  width: 550px;
+  padding-left: 42px;
+}
+#sec5 .set2 .content .text h3 {
+  padding-bottom: 64px;
+}
+#sec5 .set2 .content .text dl {
+  padding-left: 7px;
+}
+#sec5 .set2 .content .text dl dt {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 9px;
+  letter-spacing: 0.1em;
+}
+#sec5 .set2 .content .text dl dd {
+  font-size: 30px;
+  color: #b51e23;
+  font-weight: 500;
+}
+#sec5 .set2 .content .text dl dd span {
+  font-size: 20px;
+}
+#sec5 .set2 .content .text .txt {
+  padding: 20px 0 0 7px;
+}
+#sec5 .set2 .content .photo {
+  width: 650px;
+  margin-left: -200px;
+}
+#sec5 .set2 .btn {
+  text-align: center;
+  padding-bottom: 36px;
+}
+#sec5 .set2 .btn_2 {
+  margin-left: -16px;
+}
+#sec6 {
+  position: relative;
+  background: url("../img/course/s6-bga.png");
+  padding-bottom: 64px;
+}
+#sec6:before {
+  content: url("../img/sumibiyaki/s6-deco-1.png");
+  position: absolute;
+  bottom: 238px;
+  left: calc(50% + 160px);
+}
+#sec6 h2 {
+  text-align: center;
+  padding: 93px 17px 16px 0;
+}
+#sec6 .note {
+  text-align: center;
+  padding-bottom: 39px;
+}
+#sec6 .content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+#sec6 .content > div {
+  width: 320px;
+}
+#sec6 .item {
+  padding-bottom: 20px;
+}
+#sec6 .item h3 {
+  text-align: center;
+  color: #fff;
+  background: url("../img/sake/s6-bg-h3.png");
+  line-height: 60px;
+  height: 60px;
+  margin-bottom: 14px;
+}
+#sec6 .item dl {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #876b3a;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  line-height: 27px;
+}
+#sec6 .item dl dt {
+  display: table-cell;
+  padding-left: 10px;
+  letter-spacing: 0;
+}
+#sec6 .item dl dd {
+  display: table-cell;
+  text-align: right;
+  color: #b51e23;
+  padding-right: 6px;
+	min-width: 70px;
+}
+@media screen and (min-width: 1800px) {
+  #sec2:before {
+    left: auto;
+    right: 0;
+  }
+}
