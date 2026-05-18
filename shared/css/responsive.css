@@ -109,6 +109,14 @@
   }
 
 
+  /* Always show nav bar on mobile */
+  header .nav-fixed {
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+
   /* Fixed nav bar */
   header .nav-fixed .wrap {
     display: flex;
