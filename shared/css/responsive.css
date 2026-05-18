@@ -236,7 +236,8 @@
   section .set1,
   section .set2,
   section .set3,
-  section .content {
+  section .content,
+  section .box {
     display: block !important;
     width: 100% !important;
     margin-left: 0 !important;
@@ -244,6 +245,20 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     position: static !important;
+  }
+
+  /* Box left/right columns → full width */
+  section .box .left,
+  section .box .right {
+    width: 100% !important;
+    position: static !important;
+    box-sizing: border-box !important;
+    padding: 16px !important;
+  }
+
+  /* Hide vertical divider between columns */
+  section .box .left::before {
+    display: none !important;
   }
 
   /* Text containers: reset fixed widths and large paddings */
