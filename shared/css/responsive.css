@@ -49,7 +49,7 @@
     position: relative;
   }
 
-  header .wrap {
+  header > .wrap {
     position: relative;
     padding: 0;
     margin-top: 52px;
@@ -67,9 +67,7 @@
 
   /* Tel */
   header .tel {
-    position: static;
-    text-align: center;
-    padding: 8px 0;
+    display: none !important;
   }
 
 
@@ -111,6 +109,7 @@
     justify-content: space-between;
     padding: 0 16px;
     height: 52px;
+    margin-top: 0;
     box-sizing: border-box;
   }
 
