@@ -27,6 +27,7 @@
     line-height: 1.8;
     letter-spacing: 0.05em;
     overflow-x: hidden;
+    padding-bottom: 56px;
   }
 
   main {
@@ -88,9 +89,32 @@
   header .btn_fixed {
     top: auto;
     bottom: 0;
+    left: 0;
     right: 0;
     position: fixed;
-    z-index: 99;
+    z-index: 150;
+  }
+
+  header .btn_fixed a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    background: #b51e23;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  header .btn_fixed a::before {
+    content: "WEB予約はこちら";
+  }
+
+  header .btn_fixed img {
+    display: none;
   }
 
 
@@ -325,32 +349,85 @@
    * sumibiyaki.html specific fixes
    * ============================================== */
 
-  /* sec3: 焼き鳥セクション — 価格オーバーレイをリセット */
+  /* sec3: 焼き鳥セクション — 価格を写真位置に合わせる */
   #sec3 .left,
   #sec3 .right {
-    position: static !important;
+    position: relative !important;
     width: 100% !important;
     margin: 0 !important;
     top: auto !important;
+    left: auto !important;
     right: auto !important;
+    padding: 0 !important;
   }
 
   #sec3 .price {
-    position: static !important;
-    display: inline-block !important;
+    position: absolute !important;
+    display: block !important;
     font-size: 16px !important;
     width: auto !important;
-    margin: 0 4px !important;
+    margin: 0 !important;
+    line-height: 1;
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  #sec3 .price span {
+    font-size: 14px !important;
   }
 
   #sec3 .left .photo,
   #sec3 .right .photo {
     text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   #sec3 .left p,
   #sec3 .right p {
     text-align: center;
+  }
+
+  #sec3 .left .price_1 {
+    top: 28%;
+    left: 18%;
+  }
+
+  #sec3 .left .price_2 {
+    top: 24%;
+    left: 84%;
+    transform: translateX(-50%);
+  }
+
+  #sec3 .left .price_3 {
+    bottom: 1%;
+    left: 35%;
+  }
+
+  #sec3 .left .price_4 {
+    bottom: 3%;
+    left: 79%;
+    transform: translateX(-50%);
+  }
+
+  #sec3 .right .price_1 {
+    top: 37%;
+    left: 56%;
+  }
+
+  #sec3 .right .price_2 {
+    top: 55%;
+    left: 2%;
+  }
+
+  #sec3 .right .price_3 {
+    bottom: 18%;
+    left: 15%;
+  }
+
+  #sec3 .right .price_4 {
+    bottom: 1%;
+    left: 46%;
   }
 
   /* ==============================================
@@ -563,6 +640,97 @@
   /* Bxslider / hero section */
   #key ul, #key li {
     min-height: 200px;
+  }
+
+  #sec3 {
+    overflow: hidden;
+  }
+
+  #sec3 dl {
+    margin: 0 !important;
+  }
+
+  #sec3 dl dt {
+    text-align: center;
+  }
+
+  #sec3 dl dd,
+  #sec3 .set1 .left dl dd,
+  #sec3 .set2 dl dd {
+    padding: 10px 0 24px !important;
+    margin: 0 !important;
+    text-align: center;
+    font-size: 24px !important;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  #sec3 dl dd span {
+    font-size: 14px !important;
+  }
+
+  #sec3 .set1 .left dl,
+  #sec3 .set1 .right dl {
+    padding: 16px 0 0 !important;
+  }
+
+  #sec3 .set2 .text .txt,
+  #sec3 .set2 .text .btn {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+
+  #sec4 {
+    overflow: hidden;
+  }
+
+  #sec4 .set1 .left h2,
+  #sec4 .set1 .right h3,
+  #sec4 .set2 h3 {
+    padding-top: 24px !important;
+    text-align: center;
+  }
+
+  #sec4 .set1 .right .txt {
+    padding: 24px 16px !important;
+  }
+
+  #sec4 .set2 dl {
+    margin: 0 !important;
+    position: static !important;
+    width: 100% !important;
+  }
+
+  #sec4 .set2 dl dt {
+    text-align: center;
+  }
+
+  #sec4 .set2 dl dd {
+    position: static !important;
+    padding: 10px 16px 24px !important;
+    margin: 0 !important;
+    text-align: center;
+    font-size: 20px !important;
+    line-height: 1.6;
+    white-space: nowrap;
+  }
+
+  #sec4 .set2 dl dd br {
+    display: none;
+  }
+
+  #sec4 .set2 h3::before,
+  #sec4 .set3::before {
+    display: none !important;
+  }
+
+  #sec4 .set3 .photo_1,
+  #sec4 .set3 .photo_2,
+  #sec4 .set3 .btn {
+    margin: 0 !important;
+    padding: 16px 0 !important;
+    text-align: center;
   }
 
   /* ==============================================
